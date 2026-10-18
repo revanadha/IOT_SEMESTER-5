@@ -1,0 +1,13 @@
+{
+  "id": "a8e058f3-08eb-44e3-8ad6-002e8558fbc5",
+  "name": "ESP32 Button Controlled LED",
+  "path": "ESP32 Button Controlled LED",
+  "board": "esp32",
+  "boardId": "esp32-devkit-v1",
+  "boardFqbn": "esp32:esp32:esp32",
+  "createdAt": 1792292250038,
+  "updatedAt": 1792292777268,
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-18T03:11:49.569Z",
+  "exportedBy": "tinkered-app/1.0"
+}

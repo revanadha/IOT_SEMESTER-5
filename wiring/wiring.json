@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "id": "bb_1",
+      "type": "breadboard-full",
+      "parentId": null,
+      "terminals": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "esp32_1",
+      "type": "esp32-devkit",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "3V3",
+          "connection": "2b"
+        },
+        {
+          "name": "GND_R",
+          "connection": "2i"
+        },
+        {
+          "name": "EN",
+          "connection": "3b"
+        },
+        {
+          "name": "IO23",
+          "connection": "3i"
+        },
+        {
+          "name": "VP",
+          "connection": "4b"
+        },
+        {
+          "name": "IO22",
+          "connection": "4i"
+        },
+        {
+          "name": "VN",
+          "connection": "5b"
+        },
+        {
+          "name": "TX",
+          "connection": "5i"
+        },
+        {
+          "name": "IO34",
+          "connection": "6b"
+        },
+        {
+          "name": "RX",
+          "connection": "6i"
+        },
+        {
+          "name": "IO35",
+          "connection": "7b"
+        },
+        {
+          "name": "IO21",
+          "connection": "7i"
+        },
+        {
+          "name": "IO32",
+          "connection": "8b"
+        },
+        {
+          "name": "GND_RB",
+          "connection": "8i"
+        },
+        {
+          "name": "IO33",
+          "connection": "9b"
+        },
+        {
+          "name": "IO19",
+          "connection": "9i"
+        },
+        {
+          "name": "IO25",
+          "connection": "10b"
+        },
+        {
+          "name": "IO18",
+          "connection": "10i"
+        },
+        {
+          "name": "IO26",
+          "connection": "11b"
+        },
+        {
+          "name": "IO5",
+          "connection": "11i"
+        },
+        {
+          "name": "IO27",
+          "connection": "12b"
+        },
+        {
+          "name": "IO17",
+          "connection": "12i"
+        },
+        {
+          "name": "IO14",
+          "connection": "13b"
+        },
+        {
+          "name": "IO16",
+          "connection": "13i"
+        },
+        {
+          "name": "IO12",
+          "connection": "14b"
+        },
+        {
+          "name": "IO4",
+          "connection": "14i"
+        },
+        {
+          "name": "GND_L",
+          "connection": "15b"
+        },
+        {
+          "name": "IO0",
+          "connection": "15i"
+        },
+        {
+          "name": "IO13",
+          "connection": "16b"
+        },
+        {
+          "name": "IO2",
+          "connection": "16i"
+        },
+        {
+          "name": "SD2",
+          "connection": "17b"
+        },
+        {
+          "name": "IO15",
+          "connection": "17i"
+        },
+        {
+          "name": "SD3",
+          "connection": "18b"
+        },
+        {
+          "name": "SD1",
+          "connection": "18i"
+        },
+        {
+          "name": "CMD",
+          "connection": "19b"
+        },
+        {
+          "name": "SD0",
+          "connection": "19i"
+        },
+        {
+          "name": "VIN",
+          "connection": "20b"
+        },
+        {
+          "name": "CLK",
+          "connection": "20i"
+        }
+      ]
+    },
+    {
+      "id": "led_1",
+      "type": "led-red",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "anode",
+          "connection": "30a"
+        },
+        {
+          "name": "cathode",
+          "connection": "31a"
+        }
+      ]
+    },
+    {
+      "id": "r_1",
+      "type": "resistor-130",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "pin1",
+          "connection": "26e"
+        },
+        {
+          "name": "pin2",
+          "connection": "30e"
+        }
+      ]
+    },
+    {
+      "id": "btn_1",
+      "type": "push-button",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "A1",
+          "connection": "35e"
+        },
+        {
+          "name": "B1",
+          "connection": "35f"
+        },
+        {
+          "name": "A2",
+          "connection": "37e"
+        },
+        {
+          "name": "B2",
+          "connection": "37f"
+        }
+      ]
+    },
+    {
+      "id": "we_led_1_cathode",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "31b"
+        }
+      ]
+    },
+    {
+      "id": "we_bb_1_rail_top_negative_2",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "rail_top_negative_2"
+        }
+      ]
+    },
+    {
+      "id": "we_esp32_1_GND_L",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "15a"
+        }
+      ]
+    },
+    {
+      "id": "we_bb_1_rail_top_negative_3",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "rail_top_negative_3"
+        }
+      ]
+    },
+    {
+      "id": "we_btn_1_A1",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "35a"
+        }
+      ]
+    },
+    {
+      "id": "we_bb_1_rail_top_negative_4",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "rail_top_negative_4"
+        }
+      ]
+    },
+    {
+      "id": "we_esp32_1_IO32",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "8a"
+        }
+      ]
+    },
+    {
+      "id": "we_r_1_pin1",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "26a"
+        }
+      ]
+    },
+    {
+      "id": "we_btn_1_B1",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "35g"
+        }
+      ]
+    },
+    {
+      "id": "we_esp32_1_IO33",
+      "type": "wire-end",
+      "parentId": "bb_1",
+      "terminals": [
+        {
+          "name": "t1",
+          "connection": "9a"
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "w_1",
+      "color": "black",
+      "from": "we_led_1_cathode",
+      "to": "we_bb_1_rail_top_negative_2"
+    },
+    {
+      "id": "w_2",
+      "color": "black",
+      "from": "we_esp32_1_GND_L",
+      "to": "we_bb_1_rail_top_negative_3"
+    },
+    {
+      "id": "w_3",
+      "color": "black",
+      "from": "we_btn_1_A1",
+      "to": "we_bb_1_rail_top_negative_4"
+    },
+    {
+      "id": "w_4",
+      "color": "yellow",
+      "from": "we_esp32_1_IO32",
+      "to": "we_r_1_pin1"
+    },
+    {
+      "id": "w_6",
+      "color": "yellow",
+      "from": "we_btn_1_B1",
+      "to": "we_esp32_1_IO33"
+    }
+  ]
+}
